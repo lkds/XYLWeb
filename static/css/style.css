@@ -1420,11 +1420,13 @@ button:not(:disabled) {
   transition: all .5s ease;
 }
 
-#topnav .logo {
+#topnav .logo img {
   float: left;
   color: #ffffff;
   font-weight: 700;
   font-size: 25px;
+  width: 160px;
+  height: 66px;
 }
 
 #topnav .logo .l-dark {
@@ -1648,7 +1650,8 @@ button:not(:disabled) {
     color: #009e7f !important;
   }
   #topnav .navigation-menu.nav-light > li > a {
-    color: #f9fafc;
+    /* color: #f9fafc; */
+    color: black;
   }
   #topnav .navbar-toggle {
     display: none;
@@ -1759,6 +1762,16 @@ button:not(:disabled) {
 
 .bg-half-260 {
   padding: 260px 0;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
+.bg-half-400 {
+  padding: 400px 0 200px 1000px;
   background-size: cover;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -2273,3 +2286,52 @@ footer.footer-bar {
   border-top: 1px solid rgba(108, 117, 125, 0.5);
 }
 /*# sourceMappingURL=style.css.map */
+
+.service h1, 
+.service h4,
+.service h5,
+.service p,
+.service i{
+  color: white !important;
+}
+
+.iphonex_box {
+  padding: 10px;
+  box-shadow: 0px 3px 6px 0px rgb(21 41 62 / 10%);
+  background: #fff;
+  text-align: center;
+  border-radius: 4px;
+  transition: 0.3s;
+  width: 300px;
+  height: 500px;
+}
+
+.card {
+  box-shadow: 0px 3px 6px 0px rgb(21 41 62 / 10%);
+  background: #fff;
+  text-align: center;
+  padding: 45px 11px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.card-2 {
+  box-shadow: 0px 3px 6px 0px rgb(21 41 62 / 10%);
+  background: #fff;
+  text-align: center;
+  padding: 11px 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.about-item{
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fff;
+    /* box-shadow: 0px 20px 40px 0px rgb(50 140 230 / 14%); */
+    color: #4258D0;
+    text-decoration: none;
+    line-height: 40px;
+    margin-top: 16px;
+}
