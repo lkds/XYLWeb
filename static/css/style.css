@@ -1800,6 +1800,16 @@ button:not(:disabled) {
   background-position: center center;
 }
 
+.bg-300 {
+  padding: 300px 0 50px 0;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
 .home-title h5 {
   font-size: 15px !important;
   letter-spacing: 1.8px;
@@ -2334,4 +2344,19 @@ footer.footer-bar {
     text-decoration: none;
     line-height: 40px;
     margin-top: 16px;
+}
+
+.inbox-text {
+  padding: 50px 50px 0 50px;
+  color: #fff;
+}
+
+.logo-box{
+  border: 1px solid #000;
+  margin: 10px;
+  max-width: 12rem;
+}
+
+.logo-box img{
+  width:100%;
 }
