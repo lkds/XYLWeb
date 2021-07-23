@@ -2320,8 +2320,10 @@ footer.footer-bar {
   background: #fff;
   text-align: center;
   padding: 45px 11px;
-  border-radius: 4px;
+  margin: 2rem 1rem;
+  border-radius: 10px;
   transition: 0.3s;
+  height: 350px;
 }
 
 .card-2 {
@@ -2370,4 +2372,34 @@ footer.footer-bar {
 
 .btn-qr {
   padding: 8px 15px
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.over-logo {
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: ; */
+  /* transform: translate(-50%, -100%);  */
+}
+
+.logo-box-circle {
+  border-radius:50%;
+  background-color: #006b56;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  /* top: ; */
+  transform: translate(-50%, -100%);    /* 50%为自身尺寸的一半 */
+}
+
+.item-space-around {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
 }
