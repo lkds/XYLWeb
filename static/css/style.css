@@ -276,15 +276,15 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #009e7f !important;
+  background-color: #4258D0 !important;
 }
 
 .text-primary {
-  color: #009e7f !important;
+  color: #4258D0 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #006b56 !important;
+  color: #4258D0 !important;
 }
 
 .bg-secondary {
@@ -300,15 +300,15 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .bg-success {
-  background-color: #25b865 !important;
+  background-color: #4258D0 !important;
 }
 
 .text-success {
-  color: #25b865 !important;
+  color: #4258D0 !important;
 }
 
 a.text-success:hover, a.text-success:focus {
-  color: #1c8e4e !important;
+  color: #4258D0 !important;
 }
 
 .bg-warning {
@@ -476,11 +476,10 @@ a.text-blue:hover, a.text-blue:focus {
 }
 
 .btn-primary {
-  background-color: #009e7f !important;
-  border: 1px solid #009e7f !important;
+  background-color: #4258D0 !important;
+  border: 1px solid #4258D0 !important;
   color: #ffffff !important;
-  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 158, 127, 0.3);
-          box-shadow: 0 3px 5px 0 rgba(0, 158, 127, 0.3);
+
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
@@ -2359,4 +2358,16 @@ footer.footer-bar {
 
 .logo-box img{
   width:100%;
+}
+.btn-dw {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dw:hover{
+  color: #4258D0
+}
+
+.btn-qr {
+  padding: 8px 15px
 }
