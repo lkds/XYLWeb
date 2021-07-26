@@ -2359,7 +2359,7 @@ footer.footer-bar {
 }
 
 .logo-box{
-  border: 1px solid #000;
+  border: 1px dashed  #000;
   margin: 10px;
   max-width: 12rem;
 }
